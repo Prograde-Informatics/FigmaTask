@@ -10,8 +10,35 @@
     width: 1200px;
     height: 100vh;
     border: 1px solid red;
+    padding: 10px 0px;
+}
+.header 
+{ 
+    width: 100%;
+    height: 100px;
+    /* background-color: yellowgreen; */
     display: flex;
-    flex-flow: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+}
+ul
+{
+    list-style: none;
+    font-size: 24px;
+    color: black;
+}
+li {
+    display: inline;
+    padding:5px 10px
+}
+li:last-child
+{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding:15px 50px;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color:black
 }
