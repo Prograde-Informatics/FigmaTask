@@ -122,7 +122,7 @@ a {
   font-size: 20px;
   gap: 30px;
 }
-.serviceHead {
+.serviceHead  {
   background-color: #b9ff66;
   width: 180px;
   padding: 10px 25px;
@@ -222,4 +222,64 @@ a {
 }
 .white {
     background-color: white;
+}
+.workingProcess
+{
+  width: 889px;
+  padding:10px 45px;
+  align-items: center;
+  height: 200px;
+  gap:15px;
+}
+.workingProcess .head {
+  font-size: 24px;
+  background-color: #b9ff66;
+  padding:12px;
+  width:370px;
+}
+
+/* -------------------------------> */
+ /* to be edited*/
+/* ---------------------------------> */
+
+
+.contactUsSection
+{
+  /* border: 1px solid red; */
+  width: 100%;
+  padding:15px 45px;
+
+}
+.contactUs {
+  align-items: center;
+  gap:15px;
+  
+}
+
+.contactUs .head {
+  font-size: 24px;
+  background-color: #b9ff66;
+  padding:12px;
+}
+
+.formSection 
+{
+  width: 700px;
+  
+}
+.checkBox {
+    /* border: 1px solid red; */
+    padding:5px;
+    gap:15px;
+    font-size: 24px;
+    align-items: center;
+}
+.inputArea
+{
+  /* border: 1px solid green; */
+  font-size:24px;
+}
+input {
+  height: 45px;;
+  border-radius: 5px;
 }
