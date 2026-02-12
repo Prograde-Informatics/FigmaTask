@@ -283,3 +283,54 @@ header {
 }
 
 /* -------------- */
+
+.accordion {
+  width: 100%;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 41px 60px;
+}
+
+.accordion-item {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background: var(--green);
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  cursor: pointer;
+  background-color:var(--gray);
+  border-bottom: 1px solid black;
+  font-size: 20px;
+}
+
+.accordion-header h3 {
+  font-size: 22px;
+}
+
+.accordion-header img {
+  width: 40px;
+  height: 40px;
+  transition: 0.3s;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  padding: 0 25px;
+}
+
+.accordion-content p {
+  padding: 20px 0;
+}
+
+.accordion-item.active .accordion-content {
+  max-height: 300px;
+}
