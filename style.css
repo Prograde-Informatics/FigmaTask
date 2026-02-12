@@ -146,3 +146,35 @@ header {
   width: 124px;
   height: auto;
 }
+
+/* ------------------- */
+
+.subHeading {
+  padding: 0px 100px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.subHeading .head {
+  text-align: center;
+  background: var(--green);
+  padding: 7px;
+  border-radius: 10px;
+  width: 178px;
+  height: 51px;
+  justify-content: center;
+  align-items: center;
+}
+.subHeading .head h2 {
+  font-weight: 500px;
+  font-size: 30px;
+}
+
+.subHeading p {
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 580px;
+}
+
+/* ------------- */
