@@ -3,3 +3,23 @@
   padding: 0px;
   margin: 0px;
 }
+
+@font-face {
+  font-family: "space";
+  src: url(fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+:root {
+  --green: #b9ff66;
+  --gray: #f3f3f3;
+}
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-flow: column;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+}
