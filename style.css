@@ -93,7 +93,7 @@ header {
   justify-content: space-between;
   padding: 0px 100px;
   /* border: 1px solid red; */
-  background-image: url('Assets/speakerLogo.jpg');
+  background-image: url('Assets/backgroundLogo/speakerLogo.jpg');
   background-repeat: no-repeat;
   background-position: right;
 }
