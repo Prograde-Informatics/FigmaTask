@@ -410,7 +410,7 @@ input[type="radio"] {
 
 /* -------------- */
 
-footerBlock {
+.footerBlock {
   width: 100%;
   max-width: 1240px;
   margin: 0 auto;
