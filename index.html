@@ -1,18 +1,23 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Figma Task</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FigmaProject</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class="container">
+  <section class="container">
+
     <nav class="navBar row">
       <div class="logo">
-        <img src="Assets/header_logo/positivus.png" alt="HeaderLogo " id="navBarLogo" />
+        <img src="Assets/positivus.png" alt="HeaderLogo " id="navBarLogo">
       </div>
       <div class="links row">
         <ul class="row">
@@ -21,43 +26,49 @@
           <li class="hide"><a href="#">Use Cases</a></li>
           <li class="hide"><a href="#">Prices</a></li>
           <li class="hide"><a href="#">Blog</a></li>
-          <li class="hide">
-            <a href="#" id="withBorder">Request a quote</a>
-          </li>
+          <li class="hide"><a href="#" id="withBorder">Request a quote</a></li>
         </ul>
       </div>
       <button class="menu" aria-label="Toggle Menu">
-        <img src="Assets/menuIcon/Burger-menu -icon.png" alt="Menu Icon" />
+        <img src="Assets/menuIcon/Burger-menu -icon.png" alt="Menu Icon">
       </button>
     </nav>
     <!--NavBar End-->
 
     <header class="landingPage">
+
       <div class="header row">
+
         <div class="textSection column">
           <div class="head">
             <h1>Navigating the digital landscape for success</h1>
           </div>
+
           <div class="description">
             <p>
               Our digital marketing agency helps businesses grow and succeed online through a range of services
               including SEO, PPC, social media marketing, and content creation.
             </p>
           </div>
-          <button>Book a consultation</button>
+          <button>
+            Book a consultation
+          </button>
+
         </div>
 
-    </header> <!--LandingPage End-->
-
+    </header>
+    <!--header End-->
 
     <div class="logoTypes row" aria-label="Clint Logos">
-      <img src="Assets/companyLogos/amazonLogo.png" alt="amazon">
-      <img src="Assets/companyLogos/dribble.png" alt="dribble">
-      <img src="Assets/companyLogos/hubspot.png" alt="hubspot">
-      <img src="Assets/companyLogos/notation.png" alt="notation">
-      <img src="Assets/companyLogos/netflix.png" alt="netflix">
-      <img src="Assets/companyLogos/zoom.png" alt="zoom">
+      <img src="Assets/amazonLogo.png" alt="amazon">
+      <img src="Assets/dribble.png" alt="amazon">
+      <img src="Assets/hubspot .png" alt="amazon">
+      <img src="Assets/notation.png" alt="amazon">
+      <img src="Assets/netflix.png" alt="amazon">
+      <img src="Assets/zoom.png" alt="amazon">
     </div> <!--logoType End-->
+
+
 
     <section class="subHeading">
       <div class="head column">
@@ -118,7 +129,6 @@
     </section>
     <!--ServiceBlock End-->
 
-
     <div class="Second-subHeading row">
       <div class="head column">
         <h2> Our Working Process</h2>
@@ -130,6 +140,8 @@
       </div>
     </div>
     <!--Second-SubHeading End-->
+
+    <!-- ------------------- -->
 
     <div class="accordion">
 
@@ -218,7 +230,12 @@
       </div>
 
     </div>
-    <!--End Accordian-->
+
+
+    <!-- --------------------- -->
+    <!-- <div class="contactUS">
+
+    </div> -->
 
     <div class="Second-subHeading row ThirdHeading">
       <div class="head column">
@@ -252,7 +269,7 @@
           </div>
           <div class="feild column">
             <label for="email">Email *</label>
-            <input type="email" id="Femail" name="email" placeholder="Email" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
           </div>
           <div class="textArea column">
             <label for="message">Message *</label>
@@ -265,9 +282,11 @@
         </div>
       </form>
     </section>
+
     <!--FormSection End-->
 
-    <section class="footerBlock column">
+    <div class="footerBlock column">
+
 
       <div class="footerNav row">
         <div class="logo">
@@ -324,10 +343,10 @@
         <div class="policy">privacy Policy</div>
       </div>
 
-    </section>
+    </div>
     <!---FooterBlock End-->
 
-    <!--end Container-->
+    </div><!--Container End-->
     <script src="app.js"></script>
 </body>
 
