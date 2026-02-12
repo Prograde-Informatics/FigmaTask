@@ -410,3 +410,106 @@ input[type="radio"] {
 
 /* -------------- */
 
+footerBlock {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 60px 60px 40px 60px;
+  background-color: #191a23;
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+  color: white;
+  gap: 50px;
+}
+
+.footerNav {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerNav .links ul {
+  gap: 35px;
+}
+
+.footerNav .links a {
+  color: white;
+  font-size: 18px;
+}
+
+.social {
+  gap: 20px;
+}
+
+.social img {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+
+.footerContactus {
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contact {
+  gap: 15px;
+}
+
+.contactButton {
+  background-color: var(--green);
+  color: black;
+  font-size: 18px;
+  padding: 5px 12px;
+  border-radius: 6px;
+  width: fit-content;
+}
+
+.mail,
+.phone,
+.address {
+  font-size: 16px;
+  line-height: 24px;
+  color: #dcdcdc;
+}
+
+.subscription {
+  background: #292a32;
+  border-radius: 20px;
+  padding: 30px 40px;
+  gap: 20px;
+  align-items: center;
+}
+
+.emailBox input {
+  width: 260px;
+  height: 55px;
+  border-radius: 14px;
+  border: 1px solid #444;
+  background-color: #191a23;
+  color: white;
+  padding: 0 20px;
+  font-size: 16px;
+}
+
+.subButton button {
+  width: 220px;
+  height: 55px;
+  border-radius: 14px;
+  border: none;
+  background-color: var(--green);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.privacyPolicy {
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #444;
+  padding-top: 25px;
+  font-size: 14px;
+}
+
+.privacyPolicy a {
+  color: white;
+  text-decoration: none;
+}
