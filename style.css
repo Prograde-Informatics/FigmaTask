@@ -23,3 +23,12 @@
   justify-content: center;
   align-items: center;
 }
+
+.container {
+  max-width: 1440px;
+  display: flex;
+  flex-flow: column;
+  gap: 70px;
+  margin: 10px auto;
+  font-family: "space";
+}
