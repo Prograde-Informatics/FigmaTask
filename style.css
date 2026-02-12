@@ -133,3 +133,16 @@ header {
   max-width: 600px;
   height: auto;
 }
+
+/* ------------- */
+
+.logoTypes {
+  width: 100%;
+  justify-content: space-between;
+  padding: 0px 100px;
+}
+
+.logoTypes img {
+  width: 124px;
+  height: auto;
+}
